@@ -1,0 +1,26 @@
+{
+  "name": "dashportal",
+  "version": "0.0.1",
+  "description": "Desktop Admin Support Hub for IT centralisation of support and reporting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charl-Marais/Dash_Portal.git"
+  },
+  "author": "Charl Marais",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Charl-Marais/Dash_Portal/issues"
+  },
+  "homepage": "https://github.com/Charl-Marais/Dash_Portal#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10"
+  }
+}
