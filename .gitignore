@@ -1,2 +1,4 @@
 node_modules/**
 iisnode/**
+web.config
+Encrypting Web-Config.md
