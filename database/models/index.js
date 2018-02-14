@@ -24,6 +24,7 @@ fs
     db[model.name] = model;
   });
 
+//Important: creates associations based on associations defined in associate function in the model files
 Object.keys(db).forEach(modelName => {
   if (db[modelName].associate) {
     db[modelName].associate(db);

@@ -12,42 +12,57 @@ Commited
 		- fixed bug in template files refering to relative paths
 		- redirected root route to point to temp.ejs to display development examples
 		- added web.config and Encrypting Web-Config.md to .gitignore
+0.0.4 	- Create migration for DeviceName and Serial tables with a 1to1 relation
+		- Add view to demonstrate eager loading from 1to1 related tables
+		- Create migration for Programs with 1 Device having many programs (1toMany)
+		- Add a view to demonstrate eager loading from 1toMany related tables
+		- Create a many2many relation between DeviceNames and Users
+		- Add view to demonstrate eagar loading of many to many related tables with intermediary table
+
 Todo
 
 ----------
 -- BASE --
 ----------
 MySQL implimentations
- - Intergrate basic MySQL Database
-		setup basic example tables with 1To1, 1ToMany and manyToMany relations
-		Use in a basic express route.
  - Create a test to check MySQL connection capabilities
  - Improve security for MySQL connections
  - Encrypt information stored in database
+ - Document above
 
  Enviroment 
   - Secure method to save sensative information such as account names
-  - Setup and test Dev and live environment
+  - Setup a Test, Dev and Live environment and deployment plan
+  - document above
 
 Authentication/Autorization
  - Authenticate via LDAP
  - Authorize based on security groups
  - Single Sign On capabilities
  - login screen
+ - document above
 
 Express configs
  - Configure sessions per user
  - impliment CSFR strings
+ - document above
 
  Other Database intergrations
-  - Secure method to collect information from SCCM, LDAP, Symantec, MBAM
+  - Secure method to collect information from SCCM, LDAPS, Symantec, MBAM
+  - document above
+
+ Event based system
+  - System which automatically fetches information based on criteria (time based)
+  https://technology.amis.nl/2017/02/19/node-js-application-using-sse-server-sent-events-to-push-updates-read-from-kafka-topic-to-simple-html-client-application/
 
  Other intergrations
  - Basic Powershell test
  - Basic command line
+ - document above
 
- Impliment Test methedology
+ Impliment Test Driver Development methedology
  - basic QC testing
+ - document above
 
 --------------------------------
 -- Feature Schedule release 1 --
