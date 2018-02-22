@@ -1,10 +1,17 @@
-{
+const Sequelize = require("sequelize");
+
+module.exports = { 
   "development": {
-    "username": "itdashdev",
-    "password": "itdashdev",
+    "username": "ssluser",
+    "password": "sslpassword",
     "database": "itdash-dev",
     "host": "127.0.0.1",
+    "ssl": true,
     "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": true
+    },
+    "operatorsAliases": Sequelize.Op,
     "pool": {
       "max": 30,
       "min": 0,

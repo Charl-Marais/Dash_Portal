@@ -25,6 +25,7 @@
     "method-override": "^2.3.10",
     "mysql": "^2.15.0",
     "mysql2": "^1.5.2",
+    "node-forge": "^0.7.1",
     "sequelize": "^4.33.1",
     "sequelize-cli": "^3.2.0"
   },
